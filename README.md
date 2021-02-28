@@ -1,6 +1,5 @@
 ### FindMy Age Application with Kotlin
 
-
 ##### Activity
 An Android activity is one screen of the Android app's user interface. In that way an Android activity is very similar to windows in a desktop application. An Android app may contain one or more activities, meaning one or more screens.
 
@@ -15,6 +14,8 @@ fun onCreate(savedInstanceState: Bundle) {
     setContentView(R.layout.main_layout)
 }
 ```
+
+![screenshot](https://i.imgur.com/QuH8mS0.png)
 
 ![startup](https://i.imgur.com/khmlpTW.png)
 
