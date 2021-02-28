@@ -2,6 +2,7 @@ package com.example.findmyage
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -27,5 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         // tvShowAge is the Id of the Text View
         tvShowAge.text = "Your Age is $userAgeInYears Years"
+
+        Log.d("LogsMe", "Your age is $userAgeInYears Years")
     }
 }
